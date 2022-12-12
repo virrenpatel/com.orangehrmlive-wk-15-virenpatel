@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.058">
+  <properties />
+  
+  
+            <testcase name="userShouldNavigateToForgotPasswordPageSuccessfully" time="0.674" classname="com.oranghrmlive.demo.testsuite.LoginPageTest" />
+                <testcase name="userShouldLoginSuccessfullyWithValidCredentials" time="1.384" classname="com.oranghrmlive.demo.testsuite.LoginPageTest" />
+      
+</testsuite>

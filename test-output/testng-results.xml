@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[enterUsername[[ChromeDriver: chrome on WINDOWS (2d95216f632cf861becb97536b0ccaea)] -> name: username]]]>
+    </line>
+    <line>
+      <![CDATA[enterPassword[[ChromeDriver: chrome on WINDOWS (2d95216f632cf861becb97536b0ccaea)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[clickOnLoginButton[[ChromeDriver: chrome on WINDOWS (2d95216f632cf861becb97536b0ccaea)] -> xpath: //button[@type='submit']]]]>
+    </line>
+    <line>
+      <![CDATA[getDashboardText[[ChromeDriver: chrome on WINDOWS (2d95216f632cf861becb97536b0ccaea)] -> xpath: //h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']]]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-orangehrmlive-wk-15-virenpatel/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsMon_Dec_12_17_44_31_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-orangehrmlive-wk-15-virenpatel/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsMon_Dec_12_17_44_31_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[clickOnForgotPassword[[ChromeDriver: chrome on WINDOWS (fd05beae22a7cbd8088362600ded8b05)] -> xpath: //p[@class = 'oxd-text oxd-text--p orangehrm-login-forgot-header']]]]>
+    </line>
+    <line>
+      <![CDATA[getResetPasswordText[[ChromeDriver: chrome on WINDOWS (fd05beae22a7cbd8088362600ded8b05)] -> xpath: //h6[@class = 'oxd-text oxd-text--h6 orangehrm-forgot-password-title']]]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-orangehrmlive-wk-15-virenpatel/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullyMon_Dec_12_17_44_35_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-orangehrmlive-wk-15-virenpatel/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullyMon_Dec_12_17_44_36_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="11635" started-at="2022-12-12T17:44:25 GMT" finished-at="2022-12-12T17:44:36 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.oranghrmlive.demo.testsuite.LoginPageTest@1786f9d5]" name="userShouldLoginSuccessfullyWithValidCredentials" class="com.oranghrmlive.demo.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.oranghrmlive.demo.testsuite.LoginPageTest@1786f9d5]" name="userShouldNavigateToForgotPasswordPageSuccessfully" class="com.oranghrmlive.demo.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.oranghrmlive.demo.testsuite.LoginPageTest@1786f9d5]" name="userShouldNavigateToForgotPasswordPageSuccessfully" class="com.oranghrmlive.demo.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginPageTest.userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.oranghrmlive.demo.testsuite.LoginPageTest@1786f9d5]" name="userShouldLoginSuccessfullyWithValidCredentials" class="com.oranghrmlive.demo.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Login Test" duration-ms="11635" started-at="2022-12-12T17:44:25 GMT" finished-at="2022-12-12T17:44:36 GMT">
+      <class name="com.oranghrmlive.demo.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.oranghrmlive.demo.testsuite.LoginPageTest@1786f9d5]" name="setUp" is-config="true" duration-ms="4593" started-at="2022-12-12T17:44:25 GMT" finished-at="2022-12-12T17:44:29 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.oranghrmlive.demo.testsuite.LoginPageTest@1786f9d5]" name="inIt" is-config="true" duration-ms="15" started-at="2022-12-12T17:44:29 GMT" finished-at="2022-12-12T17:44:29 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.oranghrmlive.demo.testsuite.LoginPageTest@1786f9d5]" name="userShouldLoginSuccessfullyWithValidCredentials" duration-ms="1384" started-at="2022-12-12T17:44:29 GMT" finished-at="2022-12-12T17:44:31 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[enterUsername[[ChromeDriver: chrome on WINDOWS (2d95216f632cf861becb97536b0ccaea)] -> name: username]]]>
+            </line>
+            <line>
+              <![CDATA[enterPassword[[ChromeDriver: chrome on WINDOWS (2d95216f632cf861becb97536b0ccaea)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[clickOnLoginButton[[ChromeDriver: chrome on WINDOWS (2d95216f632cf861becb97536b0ccaea)] -> xpath: //button[@type='submit']]]]>
+            </line>
+            <line>
+              <![CDATA[getDashboardText[[ChromeDriver: chrome on WINDOWS (2d95216f632cf861becb97536b0ccaea)] -> xpath: //h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']]]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-orangehrmlive-wk-15-virenpatel/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsMon_Dec_12_17_44_31_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-orangehrmlive-wk-15-virenpatel/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsMon_Dec_12_17_44_31_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldLoginSuccessfullyWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oranghrmlive.demo.testsuite.LoginPageTest@1786f9d5]" name="tearDown" is-config="true" duration-ms="615" started-at="2022-12-12T17:44:31 GMT" finished-at="2022-12-12T17:44:32 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.oranghrmlive.demo.testsuite.LoginPageTest@1786f9d5]" name="setUp" is-config="true" duration-ms="2722" started-at="2022-12-12T17:44:32 GMT" finished-at="2022-12-12T17:44:35 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.oranghrmlive.demo.testsuite.LoginPageTest@1786f9d5]" name="inIt" is-config="true" duration-ms="1" started-at="2022-12-12T17:44:35 GMT" finished-at="2022-12-12T17:44:35 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.oranghrmlive.demo.testsuite.LoginPageTest@1786f9d5]" name="userShouldNavigateToForgotPasswordPageSuccessfully" duration-ms="674" started-at="2022-12-12T17:44:35 GMT" finished-at="2022-12-12T17:44:35 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[clickOnForgotPassword[[ChromeDriver: chrome on WINDOWS (fd05beae22a7cbd8088362600ded8b05)] -> xpath: //p[@class = 'oxd-text oxd-text--p orangehrm-login-forgot-header']]]]>
+            </line>
+            <line>
+              <![CDATA[getResetPasswordText[[ChromeDriver: chrome on WINDOWS (fd05beae22a7cbd8088362600ded8b05)] -> xpath: //h6[@class = 'oxd-text oxd-text--h6 orangehrm-forgot-password-title']]]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-orangehrmlive-wk-15-virenpatel/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullyMon_Dec_12_17_44_35_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\viren\IdeaProjects\com-orangehrmlive-wk-15-virenpatel/test-output/html/userShouldNavigateToForgotPasswordPageSuccessfullyMon_Dec_12_17_44_36_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToForgotPasswordPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.oranghrmlive.demo.testsuite.LoginPageTest@1786f9d5]" name="tearDown" is-config="true" duration-ms="608" started-at="2022-12-12T17:44:36 GMT" finished-at="2022-12-12T17:44:36 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.oranghrmlive.demo.testsuite.LoginPageTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- testsuite -->
+</testng-results>
